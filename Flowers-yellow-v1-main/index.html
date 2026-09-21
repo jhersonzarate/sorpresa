@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#ffeaf1">
+  <meta name="description" content="Una flor amarilla, un detalle para el 21 de setiembre.">
+  <title>Donde floreces · Para ti</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="world" aria-hidden="true"><div class="aura"></div><div class="grain"></div></div>
+  <canvas id="scene" tabindex="0" role="img" aria-label="Ramo tridimensional: un girasol acompañado de cuatro rosas amarillas. Toca una flor o pulsa Enter o espacio para iluminar el ramo. Arrastra de lado a lado o usa las flechas izquierda y derecha para girarlo. Desliza verticalmente para verlo florecer." aria-describedby="scene-help"></canvas>
+  <div class="frame-top"><span class="dedication">PARA TI <span aria-hidden="true">·</span> 21 DE SETIEMBRE</span></div>
+  <div class="side-note" aria-hidden="true">PARA QUE HOY TENGAS UNA FLOR AMARILLA</div>
+  <div class="heart-deco heart-a" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 20.5s-7.5-4.9-10-9.7C.6 7.6 2.4 4 6 4c2 0 3.6 1.1 4.5 2.7C11.4 5.1 13 4 15 4c3.6 0 5.4 3.6 4 6.8-2.5 4.8-10 9.7-10 9.7z"/></svg></div>
+  <div class="heart-deco heart-b" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 20.5s-7.5-4.9-10-9.7C.6 7.6 2.4 4 6 4c2 0 3.6 1.1 4.5 2.7C11.4 5.1 13 4 15 4c3.6 0 5.4 3.6 4 6.8-2.5 4.8-10 9.7-10 9.7z"/></svg></div>
+  <main id="journey">
+    <section class="chapter" aria-labelledby="title-0"><div class="words" data-moment="0"><span class="whisper">21 DE SETIEMBRE</span><h1 id="title-0">Hoy es el día<br><em>de las flores amarillas.</em></h1><p>Y quise que tuvieras una.</p></div></section>
+    <section class="chapter" aria-labelledby="title-1"><div class="words" data-moment="1"><span class="whisper">SIN APURO</span><h2 id="title-1">Lo bonito<br><em>toma su tiempo.</em></h2><p>Como esto. Como aprender a querer mejor.</p></div></section>
+    <section class="chapter" aria-labelledby="title-2"><div class="words" data-moment="2"><span class="whisper">Y ENTONCES, SUCEDE</span><h2 id="title-2">Todo encuentra<br><em>su forma de florecer.</em></h2><p>Hasta lo que empezó de la forma más tonta.</p></div></section>
+    <section class="chapter" aria-labelledby="title-3"><div class="words" data-moment="3"><span class="whisper">TÓCALA, SI QUIERES</span><h2 id="title-3">El mundo gira.<br><em>Y yo sigo agradecido.</em></h2><p>Tócala para darle luz. Arrástrala para girar.</p></div></section>
+    <section class="chapter" aria-labelledby="title-4"><div class="words" data-moment="4"><span class="whisper">HOY. Y LOS QUE VENGAN.</span><h2 id="title-4">Estas flores<br><em>son para ti.</em></h2><button id="open-letter" class="letter-link">Hay algo más que quiero decirte <span aria-hidden="true">↗</span></button></div></section>
+  </main>
+  <div class="bottom-bar"><p id="scene-help"><span class="scroll-line" aria-hidden="true"></span><span id="scroll-hint">DESLIZA PARA FLORECER</span></p><nav class="moments" aria-label="Momentos de la animación"><button aria-label="Ir al comienzo" aria-current="step" data-step="0"><span></span></button><button aria-label="Ver crecer la flor" data-step="1"><span></span></button><button aria-label="Ver florecer" data-step="2"><span></span></button><button aria-label="Explorar la flor" data-step="3"><span></span></button><button aria-label="Ver dedicatoria final" data-step="4"><span></span></button></nav><button id="next" aria-label="Avanzar al siguiente momento">↓</button></div>
+  <div class="progress" aria-hidden="true"><span id="progress-fill"></span></div>
+  <p id="fallback-note" hidden>Estás viendo la versión ligera de la flor.</p>
+  <dialog id="letter" aria-labelledby="letter-title"><button id="close-letter" aria-label="Cerrar carta">×</button><span class="letter-star" aria-hidden="true">✳</span><p class="whisper">SIEMPRE HAY UNA FORMA DE DECIRLO</p><h2 id="letter-title">Gracias<br><em>por haber aparecido.</em></h2><p>No necesito una fecha para pensar en ti.<br>Pero el 21 de setiembre me dio una excusa bonita<br>para recordártelo.</p><p>Gracias por lo que fuimos.<br>Y perdón por lo que no supe cuidar a tiempo.</p><span class="sign-off">Con cariño, hoy y siempre.</span><button id="return-flower" class="letter-link">Volver a mi flor <span aria-hidden="true">♡</span></button></dialog>
+  <noscript><div class="no-script">Estas flores son para ti. Activa JavaScript para explorar la animación.</div></noscript>
+</body>
+</html>
